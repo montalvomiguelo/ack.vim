@@ -98,7 +98,7 @@ function! ack#ShowResults() "{{{
   let l:handler = s:UsingLocList() ? g:ack_lhandler : g:ack_qhandler
   execute l:handler
   call s:ApplyMappings()
-  redraw!
+  echo
 endfunction "}}}
 
 "-----------------------------------------------------------------------------
